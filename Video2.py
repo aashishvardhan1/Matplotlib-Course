@@ -22,7 +22,7 @@ plt.bar(x_indexes, js_dev_y, width=width, label='JavaScript Devs')
 dev_y = [38496, 42000, 46752, 49320, 53200,
          56000, 62316, 64928, 67317, 68748, 73752]
 
-plt.bar(x_indexes + width, dev_y, width=width color='#444444', label='All Devs')
+plt.bar(x_indexes + width, dev_y, width=width, color='#444444', label='All Devs')
 
 plt.xlabel("Ages")
 plt.ylabel('Median Salary')
